@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" href="data:," />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Tech Store</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <div class="max-w-7xl mx-auto">
+      <!-- HEADER -->
+      <header>
+        <h1 class="font-bold text-6xl text-blue-500 text-center mt-6">
+          TOKO ONLINE SAYA
+        </h1>
+
+        <nav
+          class="flex justify-between items-center bg-black text-white p-5 rounded-lg m-4"
+        >
+          <h1 class="text-5xl">🛒</h1>
+
+          <h1 class="text-3xl text-yellow-500 font-bold">Tech Store</h1>
+
+          <div class="flex gap-6 text-yellow-500 font-bold">
+            <a href="#">Home</a>
+            <a href="#produk">Produk</a>
+            <a href="#kategori">Kategori</a>
+            <a href="#">Promo</a>
+            <a href="#">Kontak</a>
+            <a href="#">Blog</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section class="bg-white shadow rounded-lg p-10 mt-8 text-center">
+          <h2 class="text-5xl font-bold text-gray-800">Diskon Hingga 50%</h2>
+
+          <p class="text-gray-500 mt-5">Gratis Ongkir Seluruh Indonesia</p>
+
+          <button class="bg-green-600 text-white px-6 py-3 rounded-lg mt-6">
+            Belanja Sekarang
+          </button>
+        </section>
+
+        <!-- KATEGORI -->
+        <section id="kategori" class="mt-8">
+          <h2 class="text-3xl font-bold">Kategori Produk</h2>
+
+          <div class="flex gap-5 flex-wrap mt-5">
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Laptop
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Mouse
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Keyboard
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Headset
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Monitor
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Printer
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Speaker
+            </div>
+
+            <div class="bg-green-100 text-blue-700 px-5 py-3 rounded-lg">
+              Webcam
+            </div>
+          </div>
+        </section>
+
+        <!-- PRODUK -->
+        <section id="produk" class="mt-10">
+          <h2 class="text-3xl font-bold mb-6">Produk Unggulan</h2>
+
+          <!-- SEARCH -->
+          <input
+            type="text"
+            id="input-cari"
+            placeholder="Cari nama produk..."
+            class="w-full p-3 mb-6 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+
+          <!-- Produk dari Data.js akan ditampilkan di sini -->
+          <div
+            id="daftar-produk"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          ></div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer
+        class="bg-blue-600 text-white text-center p-6 rounded-lg mt-10 w-full"
+      >
+        <h2 class="text-2xl font-bold">MyShop</h2>
+
+        <p class="mt-2">
+          Temukan berbagai produk terbaik dengan harga terjangkau.
+        </p>
+
+        <p class="mt-4">Alamat : Jl. Raya Teknologi No. 10</p>
+
+        <p class="mt-2">Email : admin@myshop.com</p>
+
+        <p class="mt-2">Nomor telepon: 0812-3456-7890</p>
+
+        <p class="mt-4">Copyright © 2026 MyShop</p>
+      </footer>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <!-- <script src="Data.js"></script>
+    <script src="app-guest.js"></script> -->
+
+    <script src="app-guest.js"></script>
+  </body>
+</html>
